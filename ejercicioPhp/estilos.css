@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+body {
+    background: rgb(216, 224, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    background: rgb(130, 215, 211);
+    padding: 3rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    font-size: 2rem;
+}
+label {
+    font-size: 1.2rem;
+}
+input {
+    margin-bottom: 1rem;
+}
+.form-btn{
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    background-color: lightgreen;
+    align-self: center;
+}
+.form-btn:hover {
+    background-color: greenyellow;
+}
+.form-input {
+    height: 1.5rem;
+}
